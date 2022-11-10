@@ -5856,3 +5856,17 @@ TypeError: download_upload_gcp() got an unexpected keyword argument 'local_gcs_p
 [2022-11-10 14:25:14,236] {logging_mixin.py:109} INFO - [2022-11-10 14:25:14,236] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-11-10 14:25:14,255] {logging_mixin.py:109} INFO - [2022-11-10 14:25:14,255] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_V2 to 2022-11-02T06:00:00+00:00
 [2022-11-10 14:25:14,266] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 1.409 seconds
+[2022-11-10 14:25:44,358] {processor.py:163} INFO - Started process (PID=1313) to work on /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:25:44,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_gcs_dag.py for tasks to queue
+[2022-11-10 14:25:44,362] {logging_mixin.py:109} INFO - [2022-11-10 14:25:44,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:25:45,325] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_V2']) retrieved from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:25:45,336] {logging_mixin.py:109} INFO - [2022-11-10 14:25:45,336] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-10 14:25:45,356] {logging_mixin.py:109} INFO - [2022-11-10 14:25:45,356] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_V2 to 2022-11-02T06:00:00+00:00
+[2022-11-10 14:25:45,369] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 1.016 seconds
+[2022-11-10 14:26:15,470] {processor.py:163} INFO - Started process (PID=1336) to work on /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:26:15,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_gcs_dag.py for tasks to queue
+[2022-11-10 14:26:15,473] {logging_mixin.py:109} INFO - [2022-11-10 14:26:15,473] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:26:16,493] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_V2']) retrieved from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2022-11-10 14:26:16,509] {logging_mixin.py:109} INFO - [2022-11-10 14:26:16,509] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-10 14:26:16,537] {logging_mixin.py:109} INFO - [2022-11-10 14:26:16,536] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_V2 to 2022-11-02T06:00:00+00:00
+[2022-11-10 14:26:16,550] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 1.084 seconds
