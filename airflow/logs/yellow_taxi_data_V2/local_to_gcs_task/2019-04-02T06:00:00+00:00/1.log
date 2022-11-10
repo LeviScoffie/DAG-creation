@@ -1,0 +1,700 @@
+[2022-11-10 08:50:38,331] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 08:50:38,346] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 08:50:38,347] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 08:50:38,347] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 08:50:38,347] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 08:50:38,366] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 08:50:38,374] {standard_task_runner.py:52} INFO - Started process 3708 to run task
+[2022-11-10 08:50:38,381] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '21', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpyskhwlz8', '--error-file', '/tmp/tmp4zhk9l8n']
+[2022-11-10 08:50:38,383] {standard_task_runner.py:77} INFO - Job 21: Subtask local_to_gcs_task
+[2022-11-10 08:50:38,463] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 08:50:38,521] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 08:50:38,548] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 08:50:38,550] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 08:50:38,571] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T085038, end_date=20221110T085038
+[2022-11-10 08:50:38,591] {standard_task_runner.py:92} ERROR - Failed to execute job 21 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 08:50:38,635] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 08:50:38,687] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:02:42,294] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:02:42,314] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:02:42,315] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:02:42,315] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:02:42,315] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:02:42,336] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:02:42,345] {standard_task_runner.py:52} INFO - Started process 4242 to run task
+[2022-11-10 09:02:42,359] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'backfill__2019-04-02T06:00:00+00:00', '--job-id', '32', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpghayii6x', '--error-file', '/tmp/tmpiwe9sj09']
+[2022-11-10 09:02:42,360] {standard_task_runner.py:77} INFO - Job 32: Subtask local_to_gcs_task
+[2022-11-10 09:02:42,478] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:02:42,562] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:02:42,601] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2019-04-02T06:00:00+00:00
+[2022-11-10 09:02:42,604] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:02:42,634] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T090242, end_date=20221110T090242
+[2022-11-10 09:02:42,660] {standard_task_runner.py:92} ERROR - Failed to execute job 32 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:02:42,695] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 09:02:42,769] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:06:47,056] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:06:47,078] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:06:47,079] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:06:47,079] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:06:47,079] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:06:47,103] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:06:47,111] {standard_task_runner.py:52} INFO - Started process 4439 to run task
+[2022-11-10 09:06:47,145] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'backfill__2019-04-02T06:00:00+00:00', '--job-id', '40', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmptq8zogse', '--error-file', '/tmp/tmpay5lsvb4']
+[2022-11-10 09:06:47,148] {standard_task_runner.py:77} INFO - Job 40: Subtask local_to_gcs_task
+[2022-11-10 09:06:47,321] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task backfill__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:06:47,418] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:06:47,458] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2019-04-02T06:00:00+00:00
+[2022-11-10 09:06:47,460] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:06:47,484] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T090647, end_date=20221110T090647
+[2022-11-10 09:06:47,510] {standard_task_runner.py:92} ERROR - Failed to execute job 40 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:06:47,578] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 09:06:47,684] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:24:58,507] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:24:58,527] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:24:58,528] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:24:58,528] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:24:58,528] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:24:58,549] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:24:58,557] {standard_task_runner.py:52} INFO - Started process 5200 to run task
+[2022-11-10 09:24:58,570] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '49', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmprchyd0fq', '--error-file', '/tmp/tmp4g05ai7x']
+[2022-11-10 09:24:58,575] {standard_task_runner.py:77} INFO - Job 49: Subtask local_to_gcs_task
+[2022-11-10 09:24:58,689] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:24:58,759] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:24:58,792] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 09:24:58,797] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:24:58,820] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T092458, end_date=20221110T092458
+[2022-11-10 09:24:58,847] {standard_task_runner.py:92} ERROR - Failed to execute job 49 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 09:24:58,903] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 09:24:58,964] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 10:10:00,702] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 10:10:00,714] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 10:10:00,714] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 10:10:00,714] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 10:10:00,714] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 10:10:00,727] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 10:10:00,733] {standard_task_runner.py:52} INFO - Started process 7063 to run task
+[2022-11-10 10:10:00,741] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '64', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpkai1bxhj', '--error-file', '/tmp/tmpqvj1nw2o']
+[2022-11-10 10:10:00,743] {standard_task_runner.py:77} INFO - Job 64: Subtask local_to_gcs_task
+[2022-11-10 10:10:00,824] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 10:10:00,877] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 10:10:00,905] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 10:10:00,907] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 10:10:00,925] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T101000, end_date=20221110T101000
+[2022-11-10 10:10:00,948] {standard_task_runner.py:92} ERROR - Failed to execute job 64 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 10:10:00,996] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 10:10:01,053] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 11:30:56,505] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 11:30:56,526] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 11:30:56,526] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 11:30:56,527] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 11:30:56,527] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 11:30:56,549] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 11:30:56,558] {standard_task_runner.py:52} INFO - Started process 10369 to run task
+[2022-11-10 11:30:56,572] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '80', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp33aangcf', '--error-file', '/tmp/tmpejd0m5an']
+[2022-11-10 11:30:56,574] {standard_task_runner.py:77} INFO - Job 80: Subtask local_to_gcs_task
+[2022-11-10 11:30:56,690] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 11:30:56,769] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 11:30:56,807] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 11:30:56,809] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 11:30:56,844] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T113056, end_date=20221110T113056
+[2022-11-10 11:30:56,870] {standard_task_runner.py:92} ERROR - Failed to execute job 80 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 61, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 11:30:56,904] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 11:30:57,025] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 12:29:54,822] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 12:29:54,843] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 12:29:54,843] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 12:29:54,843] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 12:29:54,843] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 12:29:54,866] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 12:29:54,876] {standard_task_runner.py:52} INFO - Started process 12809 to run task
+[2022-11-10 12:29:54,899] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'local_to_gcs_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '95', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp2qwl2gde', '--error-file', '/tmp/tmppn5fujnu']
+[2022-11-10 12:29:54,901] {standard_task_runner.py:77} INFO - Job 95: Subtask local_to_gcs_task
+[2022-11-10 12:29:55,025] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.local_to_gcs_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 12:29:55,108] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 12:29:55,143] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 12:29:55,145] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 62, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 12:29:55,168] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_V2, task_id=local_to_gcs_task, execution_date=20190402T060000, start_date=20221110T122954, end_date=20221110T122955
+[2022-11-10 12:29:55,189] {standard_task_runner.py:92} ERROR - Failed to execute job 95 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 62, in upload_to_gcs
+    client = storage.Client() # creates a client for gcs storage
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 318, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 266, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client.py", line 285, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers.py", line 186, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 459, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 222, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS]
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 108, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /.google/credentials/google_credentials.json was not found.
+[2022-11-10 12:29:55,241] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-10 12:29:55,302] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

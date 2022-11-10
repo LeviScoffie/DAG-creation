@@ -1,0 +1,203 @@
+[2022-11-10 08:50:23,856] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 08:50:23,872] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 08:50:23,873] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 08:50:23,873] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 08:50:23,873] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 08:50:23,887] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 08:50:23,896] {standard_task_runner.py:52} INFO - Started process 3680 to run task
+[2022-11-10 08:50:23,904] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '17', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmph3g93d7d', '--error-file', '/tmp/tmpd7snebc7']
+[2022-11-10 08:50:23,905] {standard_task_runner.py:77} INFO - Job 17: Subtask download_dataset_task
+[2022-11-10 08:50:24,015] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 08:50:24,082] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 08:50:24,112] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 08:50:24,114] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 08:50:24,115] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 08:50:24,132] {subprocess.py:85} INFO - Output:
+[2022-11-10 08:50:27,789] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 08:50:27,826] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T085023, end_date=20221110T085027
+[2022-11-10 08:50:27,860] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 08:50:27,902] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:02:31,529] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:02:31,546] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:02:31,547] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:02:31,547] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:02:31,547] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:02:31,569] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:02:31,578] {standard_task_runner.py:52} INFO - Started process 4217 to run task
+[2022-11-10 09:02:31,584] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'backfill__2019-04-02T06:00:00+00:00', '--job-id', '29', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpr0bq885p', '--error-file', '/tmp/tmpj_8j_9zl']
+[2022-11-10 09:02:31,586] {standard_task_runner.py:77} INFO - Job 29: Subtask download_dataset_task
+[2022-11-10 09:02:31,722] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:02:31,784] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:02:31,813] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2019-04-02T06:00:00+00:00
+[2022-11-10 09:02:31,815] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 09:02:31,815] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 09:02:31,833] {subprocess.py:85} INFO - Output:
+[2022-11-10 09:02:34,295] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 09:02:34,372] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T090231, end_date=20221110T090234
+[2022-11-10 09:02:34,428] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 09:02:34,473] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:06:36,483] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:06:36,499] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:06:36,499] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:06:36,499] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:06:36,499] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:06:36,517] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:06:36,525] {standard_task_runner.py:52} INFO - Started process 4413 to run task
+[2022-11-10 09:06:36,532] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'backfill__2019-04-02T06:00:00+00:00', '--job-id', '38', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp7gps_0ng', '--error-file', '/tmp/tmpscu4fzbe']
+[2022-11-10 09:06:36,534] {standard_task_runner.py:77} INFO - Job 38: Subtask download_dataset_task
+[2022-11-10 09:06:36,634] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task backfill__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:06:36,694] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:06:36,727] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2019-04-02T06:00:00+00:00
+[2022-11-10 09:06:36,729] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 09:06:36,730] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 09:06:36,749] {subprocess.py:85} INFO - Output:
+[2022-11-10 09:06:38,952] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 09:06:39,025] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T090636, end_date=20221110T090639
+[2022-11-10 09:06:39,087] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 09:06:39,139] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 09:24:48,764] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:24:48,783] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 09:24:48,784] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:24:48,784] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 09:24:48,785] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 09:24:48,816] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 09:24:48,829] {standard_task_runner.py:52} INFO - Started process 5174 to run task
+[2022-11-10 09:24:48,846] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '48', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpfbcyleoj', '--error-file', '/tmp/tmp_o1vr56i']
+[2022-11-10 09:24:48,848] {standard_task_runner.py:77} INFO - Job 48: Subtask download_dataset_task
+[2022-11-10 09:24:49,108] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 09:24:49,199] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 09:24:49,239] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 09:24:49,241] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 09:24:49,242] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 09:24:49,268] {subprocess.py:85} INFO - Output:
+[2022-11-10 09:24:51,400] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 09:24:51,433] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T092448, end_date=20221110T092451
+[2022-11-10 09:24:51,473] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 09:24:51,513] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 10:09:51,453] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 10:09:51,474] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 10:09:51,474] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 10:09:51,475] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 10:09:51,475] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 10:09:51,498] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 10:09:51,507] {standard_task_runner.py:52} INFO - Started process 7047 to run task
+[2022-11-10 10:09:51,517] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '61', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp5a8ddjlt', '--error-file', '/tmp/tmpsg0zr05x']
+[2022-11-10 10:09:51,519] {standard_task_runner.py:77} INFO - Job 61: Subtask download_dataset_task
+[2022-11-10 10:09:51,631] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 10:09:51,714] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 10:09:51,776] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 10:09:51,778] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 10:09:51,779] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 10:09:51,814] {subprocess.py:85} INFO - Output:
+[2022-11-10 10:09:54,969] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 10:09:55,030] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T100951, end_date=20221110T100955
+[2022-11-10 10:09:55,087] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 10:09:55,142] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 11:30:41,484] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 11:30:41,509] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 11:30:41,510] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 11:30:41,510] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 11:30:41,510] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 11:30:41,533] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 11:30:41,542] {standard_task_runner.py:52} INFO - Started process 10343 to run task
+[2022-11-10 11:30:41,558] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '78', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpoqnkgala', '--error-file', '/tmp/tmpqfarmnlb']
+[2022-11-10 11:30:41,560] {standard_task_runner.py:77} INFO - Job 78: Subtask download_dataset_task
+[2022-11-10 11:30:41,678] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 11:30:41,733] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 11:30:41,765] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 11:30:41,767] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 11:30:41,769] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 11:30:41,790] {subprocess.py:85} INFO - Output:
+[2022-11-10 11:30:45,176] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 11:30:45,547] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T113041, end_date=20221110T113045
+[2022-11-10 11:30:45,614] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 11:30:45,666] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-10 12:29:44,015] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 12:29:44,031] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-11-10 12:29:44,032] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 12:29:44,032] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-11-10 12:29:44,032] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-10 12:29:44,051] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-04-02 06:00:00+00:00
+[2022-11-10 12:29:44,059] {standard_task_runner.py:52} INFO - Started process 12781 to run task
+[2022-11-10 12:29:44,073] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_V2', 'download_dataset_task', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '92', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp0fiiti0s', '--error-file', '/tmp/tmpqutg0ir1']
+[2022-11-10 12:29:44,081] {standard_task_runner.py:77} INFO - Job 92: Subtask download_dataset_task
+[2022-11-10 12:29:44,229] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_V2.download_dataset_task scheduled__2019-04-02T06:00:00+00:00 [running]> on host e2ff445f4993
+[2022-11-10 12:29:44,298] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-11-10 12:29:44,336] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_V2
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-11-10 12:29:44,338] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-10 12:29:44,339] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-04.parquet > /opt/***/yellow_tripdata_2019-04.parquet']
+[2022-11-10 12:29:44,361] {subprocess.py:85} INFO - Output:
+[2022-11-10 12:29:47,184] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-10 12:29:47,352] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_V2, task_id=download_dataset_task, execution_date=20190402T060000, start_date=20221110T122944, end_date=20221110T122947
+[2022-11-10 12:29:47,546] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-10 12:29:47,609] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
