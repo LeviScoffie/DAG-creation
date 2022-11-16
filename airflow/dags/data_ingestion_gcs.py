@@ -122,6 +122,7 @@ yellow_taxi_data_dag= DAG(
     dag_id = "yellow_taxi_data_v2",
     schedule_interval = "0 6 2 * *",
     start_date=datetime(2019,1,1),
+    end_date=datetime(2021,1,1),
     default_args =default_args,
     catchup = True, #helps us go back in history
     max_active_runs = 3,
