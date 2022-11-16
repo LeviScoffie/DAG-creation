@@ -606,3 +606,990 @@ NameError: name 'zones_url_template' is not defined
 [2022-11-14 17:33:44,076] {logging_mixin.py:109} INFO - [2022-11-14 17:33:44,075] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-11-14 17:33:44,096] {logging_mixin.py:109} INFO - [2022-11-14 17:33:44,096] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
 [2022-11-14 17:33:44,107] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.087 seconds
+[2022-11-14 17:34:14,157] {processor.py:163} INFO - Started process (PID=1494) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:14,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:34:14,159] {logging_mixin.py:109} INFO - [2022-11-14 17:34:14,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:15,197] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:15,213] {logging_mixin.py:109} INFO - [2022-11-14 17:34:15,212] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:34:15,246] {logging_mixin.py:109} INFO - [2022-11-14 17:34:15,246] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:34:15,266] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.115 seconds
+[2022-11-14 17:34:45,345] {processor.py:163} INFO - Started process (PID=1532) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:45,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:34:45,351] {logging_mixin.py:109} INFO - [2022-11-14 17:34:45,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:46,725] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:34:46,736] {logging_mixin.py:109} INFO - [2022-11-14 17:34:46,735] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:34:46,752] {logging_mixin.py:109} INFO - [2022-11-14 17:34:46,752] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:34:46,763] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.426 seconds
+[2022-11-14 17:35:17,480] {processor.py:163} INFO - Started process (PID=1560) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:17,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:35:17,484] {logging_mixin.py:109} INFO - [2022-11-14 17:35:17,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:18,550] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:18,566] {logging_mixin.py:109} INFO - [2022-11-14 17:35:18,565] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:35:18,591] {logging_mixin.py:109} INFO - [2022-11-14 17:35:18,591] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:35:18,604] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.130 seconds
+[2022-11-14 17:35:48,746] {processor.py:163} INFO - Started process (PID=1587) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:48,749] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:35:48,750] {logging_mixin.py:109} INFO - [2022-11-14 17:35:48,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:50,163] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:35:50,181] {logging_mixin.py:109} INFO - [2022-11-14 17:35:50,180] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:35:50,214] {logging_mixin.py:109} INFO - [2022-11-14 17:35:50,214] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:35:50,235] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.496 seconds
+[2022-11-14 17:36:20,416] {processor.py:163} INFO - Started process (PID=1626) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:20,421] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:36:20,423] {logging_mixin.py:109} INFO - [2022-11-14 17:36:20,422] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:21,713] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:21,728] {logging_mixin.py:109} INFO - [2022-11-14 17:36:21,728] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:36:21,755] {logging_mixin.py:109} INFO - [2022-11-14 17:36:21,755] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:36:21,773] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.365 seconds
+[2022-11-14 17:36:51,937] {processor.py:163} INFO - Started process (PID=1653) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:51,939] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:36:51,940] {logging_mixin.py:109} INFO - [2022-11-14 17:36:51,940] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:53,089] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:36:53,101] {logging_mixin.py:109} INFO - [2022-11-14 17:36:53,100] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:36:53,120] {logging_mixin.py:109} INFO - [2022-11-14 17:36:53,120] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:36:53,132] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.202 seconds
+[2022-11-14 17:37:23,291] {processor.py:163} INFO - Started process (PID=1691) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:23,294] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:37:23,296] {logging_mixin.py:109} INFO - [2022-11-14 17:37:23,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:24,460] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:24,473] {logging_mixin.py:109} INFO - [2022-11-14 17:37:24,472] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:37:24,505] {logging_mixin.py:109} INFO - [2022-11-14 17:37:24,504] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:37:24,517] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.232 seconds
+[2022-11-14 17:37:54,666] {processor.py:163} INFO - Started process (PID=1719) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:54,668] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:37:54,669] {logging_mixin.py:109} INFO - [2022-11-14 17:37:54,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:56,028] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:37:56,038] {logging_mixin.py:109} INFO - [2022-11-14 17:37:56,038] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:37:56,056] {logging_mixin.py:109} INFO - [2022-11-14 17:37:56,056] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:37:56,069] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.410 seconds
+[2022-11-14 17:38:26,183] {processor.py:163} INFO - Started process (PID=1757) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:26,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:38:26,188] {logging_mixin.py:109} INFO - [2022-11-14 17:38:26,187] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:27,457] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:27,470] {logging_mixin.py:109} INFO - [2022-11-14 17:38:27,469] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:38:27,489] {logging_mixin.py:109} INFO - [2022-11-14 17:38:27,489] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:38:27,500] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.332 seconds
+[2022-11-14 17:38:57,614] {processor.py:163} INFO - Started process (PID=1785) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:57,615] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:38:57,617] {logging_mixin.py:109} INFO - [2022-11-14 17:38:57,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:58,693] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:38:58,703] {logging_mixin.py:109} INFO - [2022-11-14 17:38:58,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:38:58,721] {logging_mixin.py:109} INFO - [2022-11-14 17:38:58,721] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:38:58,732] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.124 seconds
+[2022-11-14 17:39:28,910] {processor.py:163} INFO - Started process (PID=1813) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:39:28,913] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:39:28,915] {logging_mixin.py:109} INFO - [2022-11-14 17:39:28,914] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:39:30,609] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:39:30,624] {logging_mixin.py:109} INFO - [2022-11-14 17:39:30,623] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:39:30,684] {logging_mixin.py:109} INFO - [2022-11-14 17:39:30,684] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:39:30,720] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.817 seconds
+[2022-11-14 17:40:00,832] {processor.py:163} INFO - Started process (PID=1850) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:00,836] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:40:00,837] {logging_mixin.py:109} INFO - [2022-11-14 17:40:00,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:01,912] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:01,924] {logging_mixin.py:109} INFO - [2022-11-14 17:40:01,923] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:40:01,944] {logging_mixin.py:109} INFO - [2022-11-14 17:40:01,944] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:40:01,956] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.129 seconds
+[2022-11-14 17:40:32,052] {processor.py:163} INFO - Started process (PID=1878) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:32,055] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:40:32,056] {logging_mixin.py:109} INFO - [2022-11-14 17:40:32,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:33,221] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:40:33,234] {logging_mixin.py:109} INFO - [2022-11-14 17:40:33,233] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:40:33,255] {logging_mixin.py:109} INFO - [2022-11-14 17:40:33,255] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:40:33,267] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.220 seconds
+[2022-11-14 17:41:03,539] {processor.py:163} INFO - Started process (PID=1914) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:03,542] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:41:03,543] {logging_mixin.py:109} INFO - [2022-11-14 17:41:03,543] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:04,628] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:04,643] {logging_mixin.py:109} INFO - [2022-11-14 17:41:04,642] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:41:04,671] {logging_mixin.py:109} INFO - [2022-11-14 17:41:04,670] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:41:04,683] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.151 seconds
+[2022-11-14 17:41:34,759] {processor.py:163} INFO - Started process (PID=1943) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:34,764] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:41:34,765] {logging_mixin.py:109} INFO - [2022-11-14 17:41:34,765] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:35,712] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:41:35,728] {logging_mixin.py:109} INFO - [2022-11-14 17:41:35,727] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:41:35,755] {logging_mixin.py:109} INFO - [2022-11-14 17:41:35,755] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:41:35,768] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.014 seconds
+[2022-11-14 17:42:05,917] {processor.py:163} INFO - Started process (PID=1981) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:05,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:42:05,921] {logging_mixin.py:109} INFO - [2022-11-14 17:42:05,921] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:06,969] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:06,979] {logging_mixin.py:109} INFO - [2022-11-14 17:42:06,979] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:42:06,999] {logging_mixin.py:109} INFO - [2022-11-14 17:42:06,998] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:42:07,010] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.100 seconds
+[2022-11-14 17:42:37,147] {processor.py:163} INFO - Started process (PID=2007) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:37,150] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:42:37,151] {logging_mixin.py:109} INFO - [2022-11-14 17:42:37,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:38,299] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:42:38,317] {logging_mixin.py:109} INFO - [2022-11-14 17:42:38,317] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:42:38,345] {logging_mixin.py:109} INFO - [2022-11-14 17:42:38,344] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:42:38,359] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.218 seconds
+[2022-11-14 17:43:08,520] {processor.py:163} INFO - Started process (PID=2036) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:08,523] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:43:08,524] {logging_mixin.py:109} INFO - [2022-11-14 17:43:08,524] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:09,838] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:09,860] {logging_mixin.py:109} INFO - [2022-11-14 17:43:09,856] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:43:09,887] {logging_mixin.py:109} INFO - [2022-11-14 17:43:09,886] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:43:09,902] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.387 seconds
+[2022-11-14 17:43:40,068] {processor.py:163} INFO - Started process (PID=2076) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:40,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:43:40,073] {logging_mixin.py:109} INFO - [2022-11-14 17:43:40,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:41,159] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:43:41,171] {logging_mixin.py:109} INFO - [2022-11-14 17:43:41,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:43:41,190] {logging_mixin.py:109} INFO - [2022-11-14 17:43:41,189] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:43:41,200] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.138 seconds
+[2022-11-14 17:44:11,322] {processor.py:163} INFO - Started process (PID=2105) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:11,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:44:11,327] {logging_mixin.py:109} INFO - [2022-11-14 17:44:11,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:12,375] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:12,387] {logging_mixin.py:109} INFO - [2022-11-14 17:44:12,387] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:44:12,406] {logging_mixin.py:109} INFO - [2022-11-14 17:44:12,406] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:44:12,417] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.101 seconds
+[2022-11-14 17:44:42,573] {processor.py:163} INFO - Started process (PID=2142) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:42,576] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:44:42,577] {logging_mixin.py:109} INFO - [2022-11-14 17:44:42,577] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:43,971] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:44:43,985] {logging_mixin.py:109} INFO - [2022-11-14 17:44:43,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:44:44,005] {logging_mixin.py:109} INFO - [2022-11-14 17:44:44,004] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:44:44,015] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.450 seconds
+[2022-11-14 17:45:14,116] {processor.py:163} INFO - Started process (PID=2170) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:14,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:45:14,120] {logging_mixin.py:109} INFO - [2022-11-14 17:45:14,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:15,188] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:15,202] {logging_mixin.py:109} INFO - [2022-11-14 17:45:15,202] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:45:15,230] {logging_mixin.py:109} INFO - [2022-11-14 17:45:15,230] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:45:15,245] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.135 seconds
+[2022-11-14 17:45:45,483] {processor.py:163} INFO - Started process (PID=2198) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:45,486] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:45:45,487] {logging_mixin.py:109} INFO - [2022-11-14 17:45:45,487] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:46,573] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:45:46,584] {logging_mixin.py:109} INFO - [2022-11-14 17:45:46,583] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:45:46,602] {logging_mixin.py:109} INFO - [2022-11-14 17:45:46,602] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:45:46,613] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.138 seconds
+[2022-11-14 17:46:16,771] {processor.py:163} INFO - Started process (PID=2235) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:16,773] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:46:16,775] {logging_mixin.py:109} INFO - [2022-11-14 17:46:16,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:17,812] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:17,824] {logging_mixin.py:109} INFO - [2022-11-14 17:46:17,823] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:46:17,843] {logging_mixin.py:109} INFO - [2022-11-14 17:46:17,843] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:46:17,856] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.090 seconds
+[2022-11-14 17:46:48,004] {processor.py:163} INFO - Started process (PID=2263) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:48,007] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:46:48,008] {logging_mixin.py:109} INFO - [2022-11-14 17:46:48,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:49,168] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:46:49,184] {logging_mixin.py:109} INFO - [2022-11-14 17:46:49,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:46:49,201] {logging_mixin.py:109} INFO - [2022-11-14 17:46:49,201] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:46:49,213] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.214 seconds
+[2022-11-14 17:47:19,415] {processor.py:163} INFO - Started process (PID=2301) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:19,418] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:47:19,419] {logging_mixin.py:109} INFO - [2022-11-14 17:47:19,419] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:20,671] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:20,682] {logging_mixin.py:109} INFO - [2022-11-14 17:47:20,681] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:47:20,700] {logging_mixin.py:109} INFO - [2022-11-14 17:47:20,700] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:47:20,712] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.302 seconds
+[2022-11-14 17:47:50,803] {processor.py:163} INFO - Started process (PID=2329) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:50,807] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:47:50,809] {logging_mixin.py:109} INFO - [2022-11-14 17:47:50,808] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:51,785] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:47:51,795] {logging_mixin.py:109} INFO - [2022-11-14 17:47:51,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:47:51,813] {logging_mixin.py:109} INFO - [2022-11-14 17:47:51,812] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:47:51,824] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.027 seconds
+[2022-11-14 17:48:21,911] {processor.py:163} INFO - Started process (PID=2356) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:21,913] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:48:21,914] {logging_mixin.py:109} INFO - [2022-11-14 17:48:21,914] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:23,000] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:23,010] {logging_mixin.py:109} INFO - [2022-11-14 17:48:23,010] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:48:23,038] {logging_mixin.py:109} INFO - [2022-11-14 17:48:23,038] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:48:23,052] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.148 seconds
+[2022-11-14 17:48:53,172] {processor.py:163} INFO - Started process (PID=2394) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:53,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:48:53,176] {logging_mixin.py:109} INFO - [2022-11-14 17:48:53,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:54,144] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:48:54,159] {logging_mixin.py:109} INFO - [2022-11-14 17:48:54,159] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:48:54,189] {logging_mixin.py:109} INFO - [2022-11-14 17:48:54,189] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:48:54,202] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.037 seconds
+[2022-11-14 17:49:24,343] {processor.py:163} INFO - Started process (PID=2422) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:24,344] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:49:24,345] {logging_mixin.py:109} INFO - [2022-11-14 17:49:24,345] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:25,435] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:25,452] {logging_mixin.py:109} INFO - [2022-11-14 17:49:25,451] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:49:25,481] {logging_mixin.py:109} INFO - [2022-11-14 17:49:25,481] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:49:25,495] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.158 seconds
+[2022-11-14 17:49:55,650] {processor.py:163} INFO - Started process (PID=2459) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:55,653] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:49:55,654] {logging_mixin.py:109} INFO - [2022-11-14 17:49:55,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:56,704] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:49:56,714] {logging_mixin.py:109} INFO - [2022-11-14 17:49:56,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:49:56,731] {logging_mixin.py:109} INFO - [2022-11-14 17:49:56,731] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:49:56,741] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.098 seconds
+[2022-11-14 17:50:26,891] {processor.py:163} INFO - Started process (PID=2487) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:26,894] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:50:26,895] {logging_mixin.py:109} INFO - [2022-11-14 17:50:26,895] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:28,323] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:28,339] {logging_mixin.py:109} INFO - [2022-11-14 17:50:28,338] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:50:28,367] {logging_mixin.py:109} INFO - [2022-11-14 17:50:28,367] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:50:28,381] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.497 seconds
+[2022-11-14 17:50:58,534] {processor.py:163} INFO - Started process (PID=2524) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:58,540] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:50:58,541] {logging_mixin.py:109} INFO - [2022-11-14 17:50:58,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:59,594] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:50:59,605] {logging_mixin.py:109} INFO - [2022-11-14 17:50:59,605] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:50:59,623] {logging_mixin.py:109} INFO - [2022-11-14 17:50:59,622] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:50:59,633] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.104 seconds
+[2022-11-14 17:51:29,783] {processor.py:163} INFO - Started process (PID=2552) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:51:29,785] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:51:29,786] {logging_mixin.py:109} INFO - [2022-11-14 17:51:29,786] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:51:30,859] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:51:30,872] {logging_mixin.py:109} INFO - [2022-11-14 17:51:30,871] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:51:30,892] {logging_mixin.py:109} INFO - [2022-11-14 17:51:30,892] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:51:30,905] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.128 seconds
+[2022-11-14 17:52:01,078] {processor.py:163} INFO - Started process (PID=2581) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:01,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:52:01,081] {logging_mixin.py:109} INFO - [2022-11-14 17:52:01,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:02,810] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:02,826] {logging_mixin.py:109} INFO - [2022-11-14 17:52:02,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:52:02,851] {logging_mixin.py:109} INFO - [2022-11-14 17:52:02,851] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:52:02,866] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.795 seconds
+[2022-11-14 17:52:32,965] {processor.py:163} INFO - Started process (PID=2617) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:32,973] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:52:32,975] {logging_mixin.py:109} INFO - [2022-11-14 17:52:32,975] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:34,069] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:52:34,080] {logging_mixin.py:109} INFO - [2022-11-14 17:52:34,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:52:34,097] {logging_mixin.py:109} INFO - [2022-11-14 17:52:34,097] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:52:34,108] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.150 seconds
+[2022-11-14 17:53:04,201] {processor.py:163} INFO - Started process (PID=2644) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:04,204] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:53:04,205] {logging_mixin.py:109} INFO - [2022-11-14 17:53:04,205] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:05,327] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:05,338] {logging_mixin.py:109} INFO - [2022-11-14 17:53:05,338] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:53:05,356] {logging_mixin.py:109} INFO - [2022-11-14 17:53:05,356] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:53:05,367] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.172 seconds
+[2022-11-14 17:53:35,508] {processor.py:163} INFO - Started process (PID=2681) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:35,510] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:53:35,511] {logging_mixin.py:109} INFO - [2022-11-14 17:53:35,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:36,767] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:53:36,783] {logging_mixin.py:109} INFO - [2022-11-14 17:53:36,783] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:53:36,810] {logging_mixin.py:109} INFO - [2022-11-14 17:53:36,810] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:53:36,825] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.323 seconds
+[2022-11-14 17:54:06,995] {processor.py:163} INFO - Started process (PID=2709) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:06,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:54:06,999] {logging_mixin.py:109} INFO - [2022-11-14 17:54:06,999] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:07,986] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:07,997] {logging_mixin.py:109} INFO - [2022-11-14 17:54:07,997] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:54:08,015] {logging_mixin.py:109} INFO - [2022-11-14 17:54:08,015] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:54:08,025] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.035 seconds
+[2022-11-14 17:54:38,186] {processor.py:163} INFO - Started process (PID=2748) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:38,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:54:38,190] {logging_mixin.py:109} INFO - [2022-11-14 17:54:38,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:39,434] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:54:39,453] {logging_mixin.py:109} INFO - [2022-11-14 17:54:39,453] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:54:39,474] {logging_mixin.py:109} INFO - [2022-11-14 17:54:39,474] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:54:39,494] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.314 seconds
+[2022-11-14 17:55:09,641] {processor.py:163} INFO - Started process (PID=2777) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:09,643] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:55:09,645] {logging_mixin.py:109} INFO - [2022-11-14 17:55:09,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:10,855] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:10,871] {logging_mixin.py:109} INFO - [2022-11-14 17:55:10,870] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:55:10,898] {logging_mixin.py:109} INFO - [2022-11-14 17:55:10,898] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:55:10,911] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.276 seconds
+[2022-11-14 17:55:41,093] {processor.py:163} INFO - Started process (PID=2815) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:41,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:55:41,097] {logging_mixin.py:109} INFO - [2022-11-14 17:55:41,097] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:42,361] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:55:42,372] {logging_mixin.py:109} INFO - [2022-11-14 17:55:42,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:55:42,390] {logging_mixin.py:109} INFO - [2022-11-14 17:55:42,390] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:55:42,404] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.317 seconds
+[2022-11-14 17:56:12,492] {processor.py:163} INFO - Started process (PID=2843) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:12,495] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:56:12,496] {logging_mixin.py:109} INFO - [2022-11-14 17:56:12,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:13,545] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:13,558] {logging_mixin.py:109} INFO - [2022-11-14 17:56:13,557] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:56:13,577] {logging_mixin.py:109} INFO - [2022-11-14 17:56:13,576] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:56:13,588] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.101 seconds
+[2022-11-14 17:56:43,695] {processor.py:163} INFO - Started process (PID=2870) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:43,698] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:56:43,700] {logging_mixin.py:109} INFO - [2022-11-14 17:56:43,699] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:44,938] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:56:44,955] {logging_mixin.py:109} INFO - [2022-11-14 17:56:44,955] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:56:44,989] {logging_mixin.py:109} INFO - [2022-11-14 17:56:44,989] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:56:45,017] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.329 seconds
+[2022-11-14 17:57:15,186] {processor.py:163} INFO - Started process (PID=2908) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:15,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:57:15,190] {logging_mixin.py:109} INFO - [2022-11-14 17:57:15,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:16,199] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:16,209] {logging_mixin.py:109} INFO - [2022-11-14 17:57:16,209] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:57:16,228] {logging_mixin.py:109} INFO - [2022-11-14 17:57:16,228] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:57:16,239] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.059 seconds
+[2022-11-14 17:57:46,392] {processor.py:163} INFO - Started process (PID=2935) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:46,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:57:46,397] {logging_mixin.py:109} INFO - [2022-11-14 17:57:46,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:47,453] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:57:47,466] {logging_mixin.py:109} INFO - [2022-11-14 17:57:47,465] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:57:47,487] {logging_mixin.py:109} INFO - [2022-11-14 17:57:47,487] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:57:47,499] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.113 seconds
+[2022-11-14 17:58:17,642] {processor.py:163} INFO - Started process (PID=2972) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:17,644] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:58:17,645] {logging_mixin.py:109} INFO - [2022-11-14 17:58:17,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:18,800] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:18,816] {logging_mixin.py:109} INFO - [2022-11-14 17:58:18,816] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:58:18,853] {logging_mixin.py:109} INFO - [2022-11-14 17:58:18,853] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:58:18,869] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.233 seconds
+[2022-11-14 17:58:49,016] {processor.py:163} INFO - Started process (PID=3001) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:49,019] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:58:49,019] {logging_mixin.py:109} INFO - [2022-11-14 17:58:49,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:50,069] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:58:50,087] {logging_mixin.py:109} INFO - [2022-11-14 17:58:50,087] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:58:50,114] {logging_mixin.py:109} INFO - [2022-11-14 17:58:50,114] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:58:50,128] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.118 seconds
+[2022-11-14 17:59:20,273] {processor.py:163} INFO - Started process (PID=3029) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:20,276] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:59:20,277] {logging_mixin.py:109} INFO - [2022-11-14 17:59:20,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:21,550] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:21,587] {logging_mixin.py:109} INFO - [2022-11-14 17:59:21,587] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:59:21,617] {logging_mixin.py:109} INFO - [2022-11-14 17:59:21,617] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:59:21,640] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.373 seconds
+[2022-11-14 17:59:51,807] {processor.py:163} INFO - Started process (PID=3066) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:51,810] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 17:59:51,811] {logging_mixin.py:109} INFO - [2022-11-14 17:59:51,811] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:52,786] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 17:59:52,801] {logging_mixin.py:109} INFO - [2022-11-14 17:59:52,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 17:59:52,827] {logging_mixin.py:109} INFO - [2022-11-14 17:59:52,827] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 17:59:52,842] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.040 seconds
+[2022-11-14 18:00:23,006] {processor.py:163} INFO - Started process (PID=3093) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:23,010] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:00:23,011] {logging_mixin.py:109} INFO - [2022-11-14 18:00:23,011] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:24,396] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:24,411] {logging_mixin.py:109} INFO - [2022-11-14 18:00:24,410] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:00:24,435] {logging_mixin.py:109} INFO - [2022-11-14 18:00:24,434] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:00:24,448] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.449 seconds
+[2022-11-14 18:00:54,598] {processor.py:163} INFO - Started process (PID=3131) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:54,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:00:54,604] {logging_mixin.py:109} INFO - [2022-11-14 18:00:54,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:55,600] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:00:55,611] {logging_mixin.py:109} INFO - [2022-11-14 18:00:55,611] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:00:55,631] {logging_mixin.py:109} INFO - [2022-11-14 18:00:55,630] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:00:55,644] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.052 seconds
+[2022-11-14 18:01:25,790] {processor.py:163} INFO - Started process (PID=3159) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:25,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:01:25,793] {logging_mixin.py:109} INFO - [2022-11-14 18:01:25,793] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:26,867] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:26,880] {logging_mixin.py:109} INFO - [2022-11-14 18:01:26,879] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:01:26,908] {logging_mixin.py:109} INFO - [2022-11-14 18:01:26,907] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:01:26,925] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.141 seconds
+[2022-11-14 18:01:57,085] {processor.py:163} INFO - Started process (PID=3188) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:57,089] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:01:57,090] {logging_mixin.py:109} INFO - [2022-11-14 18:01:57,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:59,049] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:01:59,077] {logging_mixin.py:109} INFO - [2022-11-14 18:01:59,077] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:01:59,119] {logging_mixin.py:109} INFO - [2022-11-14 18:01:59,119] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:01:59,152] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 2.074 seconds
+[2022-11-14 18:02:29,233] {processor.py:163} INFO - Started process (PID=3225) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:02:29,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:02:29,236] {logging_mixin.py:109} INFO - [2022-11-14 18:02:29,236] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:02:30,212] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:02:30,236] {logging_mixin.py:109} INFO - [2022-11-14 18:02:30,236] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:02:30,260] {logging_mixin.py:109} INFO - [2022-11-14 18:02:30,260] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:02:30,278] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.050 seconds
+[2022-11-14 18:03:00,394] {processor.py:163} INFO - Started process (PID=3254) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:00,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:03:00,400] {logging_mixin.py:109} INFO - [2022-11-14 18:03:00,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:01,595] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:01,605] {logging_mixin.py:109} INFO - [2022-11-14 18:03:01,605] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:03:01,622] {logging_mixin.py:109} INFO - [2022-11-14 18:03:01,622] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:03:01,632] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.243 seconds
+[2022-11-14 18:03:31,723] {processor.py:163} INFO - Started process (PID=3292) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:31,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:03:31,726] {logging_mixin.py:109} INFO - [2022-11-14 18:03:31,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:32,971] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:03:32,981] {logging_mixin.py:109} INFO - [2022-11-14 18:03:32,981] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:03:32,999] {logging_mixin.py:109} INFO - [2022-11-14 18:03:32,998] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:03:33,008] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.291 seconds
+[2022-11-14 18:04:03,109] {processor.py:163} INFO - Started process (PID=3320) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:03,111] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:04:03,112] {logging_mixin.py:109} INFO - [2022-11-14 18:04:03,112] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:04,048] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:04,059] {logging_mixin.py:109} INFO - [2022-11-14 18:04:04,059] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:04:04,076] {logging_mixin.py:109} INFO - [2022-11-14 18:04:04,076] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:04:04,088] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.984 seconds
+[2022-11-14 18:04:34,261] {processor.py:163} INFO - Started process (PID=3358) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:34,264] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:04:34,266] {logging_mixin.py:109} INFO - [2022-11-14 18:04:34,266] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:35,377] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:04:35,393] {logging_mixin.py:109} INFO - [2022-11-14 18:04:35,392] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:04:35,417] {logging_mixin.py:109} INFO - [2022-11-14 18:04:35,417] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:04:35,432] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.177 seconds
+[2022-11-14 18:05:05,571] {processor.py:163} INFO - Started process (PID=3386) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:05,573] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:05:05,575] {logging_mixin.py:109} INFO - [2022-11-14 18:05:05,574] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:06,757] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:06,768] {logging_mixin.py:109} INFO - [2022-11-14 18:05:06,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:05:06,785] {logging_mixin.py:109} INFO - [2022-11-14 18:05:06,785] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:05:06,797] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.232 seconds
+[2022-11-14 18:05:36,883] {processor.py:163} INFO - Started process (PID=3421) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:36,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:05:36,886] {logging_mixin.py:109} INFO - [2022-11-14 18:05:36,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:38,254] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:05:38,269] {logging_mixin.py:109} INFO - [2022-11-14 18:05:38,268] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:05:38,292] {logging_mixin.py:109} INFO - [2022-11-14 18:05:38,292] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:05:38,307] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.430 seconds
+[2022-11-14 18:06:08,443] {processor.py:163} INFO - Started process (PID=3452) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:08,446] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:06:08,447] {logging_mixin.py:109} INFO - [2022-11-14 18:06:08,447] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:09,469] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:09,479] {logging_mixin.py:109} INFO - [2022-11-14 18:06:09,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:06:09,500] {logging_mixin.py:109} INFO - [2022-11-14 18:06:09,500] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:06:09,513] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.075 seconds
+[2022-11-14 18:06:39,666] {processor.py:163} INFO - Started process (PID=3481) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:39,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:06:39,670] {logging_mixin.py:109} INFO - [2022-11-14 18:06:39,670] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:40,933] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:06:40,949] {logging_mixin.py:109} INFO - [2022-11-14 18:06:40,948] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:06:40,976] {logging_mixin.py:109} INFO - [2022-11-14 18:06:40,975] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:06:40,990] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.329 seconds
+[2022-11-14 18:07:11,112] {processor.py:163} INFO - Started process (PID=3521) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:11,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:07:11,115] {logging_mixin.py:109} INFO - [2022-11-14 18:07:11,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:12,262] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:12,277] {logging_mixin.py:109} INFO - [2022-11-14 18:07:12,277] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:07:12,304] {logging_mixin.py:109} INFO - [2022-11-14 18:07:12,304] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:07:12,318] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.225 seconds
+[2022-11-14 18:07:42,422] {processor.py:163} INFO - Started process (PID=3546) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:42,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:07:42,426] {logging_mixin.py:109} INFO - [2022-11-14 18:07:42,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:43,502] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:07:43,513] {logging_mixin.py:109} INFO - [2022-11-14 18:07:43,512] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:07:43,535] {logging_mixin.py:109} INFO - [2022-11-14 18:07:43,535] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:07:43,547] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.130 seconds
+[2022-11-14 18:08:13,744] {processor.py:163} INFO - Started process (PID=3583) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:13,746] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:08:13,747] {logging_mixin.py:109} INFO - [2022-11-14 18:08:13,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:14,904] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:14,922] {logging_mixin.py:109} INFO - [2022-11-14 18:08:14,921] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:08:14,948] {logging_mixin.py:109} INFO - [2022-11-14 18:08:14,948] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:08:14,962] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.224 seconds
+[2022-11-14 18:08:45,133] {processor.py:163} INFO - Started process (PID=3611) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:45,137] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:08:45,138] {logging_mixin.py:109} INFO - [2022-11-14 18:08:45,138] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:46,138] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:08:46,154] {logging_mixin.py:109} INFO - [2022-11-14 18:08:46,154] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:08:46,182] {logging_mixin.py:109} INFO - [2022-11-14 18:08:46,181] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:08:46,195] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.070 seconds
+[2022-11-14 18:09:16,346] {processor.py:163} INFO - Started process (PID=3638) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:16,351] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:09:16,353] {logging_mixin.py:109} INFO - [2022-11-14 18:09:16,352] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:17,503] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:17,514] {logging_mixin.py:109} INFO - [2022-11-14 18:09:17,514] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:09:17,533] {logging_mixin.py:109} INFO - [2022-11-14 18:09:17,533] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:09:17,544] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.203 seconds
+[2022-11-14 18:09:47,678] {processor.py:163} INFO - Started process (PID=3675) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:47,681] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:09:47,682] {logging_mixin.py:109} INFO - [2022-11-14 18:09:47,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:48,750] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:09:48,764] {logging_mixin.py:109} INFO - [2022-11-14 18:09:48,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:09:48,790] {logging_mixin.py:109} INFO - [2022-11-14 18:09:48,789] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:09:48,805] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.133 seconds
+[2022-11-14 18:10:18,957] {processor.py:163} INFO - Started process (PID=3703) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:18,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:10:18,961] {logging_mixin.py:109} INFO - [2022-11-14 18:10:18,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:20,275] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:20,291] {logging_mixin.py:109} INFO - [2022-11-14 18:10:20,291] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:10:20,317] {logging_mixin.py:109} INFO - [2022-11-14 18:10:20,316] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:10:20,336] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.386 seconds
+[2022-11-14 18:10:50,495] {processor.py:163} INFO - Started process (PID=3740) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:50,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:10:50,503] {logging_mixin.py:109} INFO - [2022-11-14 18:10:50,503] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:51,473] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:10:51,484] {logging_mixin.py:109} INFO - [2022-11-14 18:10:51,484] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:10:51,503] {logging_mixin.py:109} INFO - [2022-11-14 18:10:51,503] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:10:51,515] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.025 seconds
+[2022-11-14 18:11:21,671] {processor.py:163} INFO - Started process (PID=3769) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:21,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:11:21,675] {logging_mixin.py:109} INFO - [2022-11-14 18:11:21,674] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:22,663] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:22,673] {logging_mixin.py:109} INFO - [2022-11-14 18:11:22,673] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:11:22,690] {logging_mixin.py:109} INFO - [2022-11-14 18:11:22,690] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:11:22,700] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.035 seconds
+[2022-11-14 18:11:52,868] {processor.py:163} INFO - Started process (PID=3806) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:52,870] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:11:52,871] {logging_mixin.py:109} INFO - [2022-11-14 18:11:52,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:53,947] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:11:53,963] {logging_mixin.py:109} INFO - [2022-11-14 18:11:53,962] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:11:53,990] {logging_mixin.py:109} INFO - [2022-11-14 18:11:53,990] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:11:54,004] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.143 seconds
+[2022-11-14 18:12:24,152] {processor.py:163} INFO - Started process (PID=3834) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:24,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:12:24,155] {logging_mixin.py:109} INFO - [2022-11-14 18:12:24,155] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:25,075] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:25,085] {logging_mixin.py:109} INFO - [2022-11-14 18:12:25,085] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:12:25,105] {logging_mixin.py:109} INFO - [2022-11-14 18:12:25,104] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:12:25,117] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.970 seconds
+[2022-11-14 18:12:55,429] {processor.py:163} INFO - Started process (PID=3863) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:55,431] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:12:55,433] {logging_mixin.py:109} INFO - [2022-11-14 18:12:55,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:56,612] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:12:56,625] {logging_mixin.py:109} INFO - [2022-11-14 18:12:56,625] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:12:56,655] {logging_mixin.py:109} INFO - [2022-11-14 18:12:56,655] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:12:56,667] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.245 seconds
+[2022-11-14 18:13:26,756] {processor.py:163} INFO - Started process (PID=3900) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:26,759] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:13:26,761] {logging_mixin.py:109} INFO - [2022-11-14 18:13:26,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:28,093] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:28,103] {logging_mixin.py:109} INFO - [2022-11-14 18:13:28,103] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:13:28,121] {logging_mixin.py:109} INFO - [2022-11-14 18:13:28,121] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:13:28,131] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.382 seconds
+[2022-11-14 18:13:58,215] {processor.py:163} INFO - Started process (PID=3927) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:58,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:13:58,218] {logging_mixin.py:109} INFO - [2022-11-14 18:13:58,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:59,528] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:13:59,544] {logging_mixin.py:109} INFO - [2022-11-14 18:13:59,543] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:13:59,568] {logging_mixin.py:109} INFO - [2022-11-14 18:13:59,568] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:13:59,580] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.377 seconds
+[2022-11-14 18:14:29,739] {processor.py:163} INFO - Started process (PID=3964) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:14:29,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:14:29,742] {logging_mixin.py:109} INFO - [2022-11-14 18:14:29,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:14:30,689] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:14:30,707] {logging_mixin.py:109} INFO - [2022-11-14 18:14:30,706] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:14:30,728] {logging_mixin.py:109} INFO - [2022-11-14 18:14:30,727] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:14:30,738] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.004 seconds
+[2022-11-14 18:15:00,877] {processor.py:163} INFO - Started process (PID=3991) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:00,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:15:00,880] {logging_mixin.py:109} INFO - [2022-11-14 18:15:00,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:02,276] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:02,293] {logging_mixin.py:109} INFO - [2022-11-14 18:15:02,292] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:15:02,318] {logging_mixin.py:109} INFO - [2022-11-14 18:15:02,318] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:15:02,331] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.460 seconds
+[2022-11-14 18:15:32,449] {processor.py:163} INFO - Started process (PID=4028) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:32,452] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:15:32,454] {logging_mixin.py:109} INFO - [2022-11-14 18:15:32,454] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:33,438] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:15:33,453] {logging_mixin.py:109} INFO - [2022-11-14 18:15:33,453] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:15:33,475] {logging_mixin.py:109} INFO - [2022-11-14 18:15:33,475] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:15:33,488] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.047 seconds
+[2022-11-14 18:16:03,648] {processor.py:163} INFO - Started process (PID=4055) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:03,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:16:03,655] {logging_mixin.py:109} INFO - [2022-11-14 18:16:03,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:04,623] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:04,634] {logging_mixin.py:109} INFO - [2022-11-14 18:16:04,634] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:16:04,651] {logging_mixin.py:109} INFO - [2022-11-14 18:16:04,651] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:16:04,661] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.019 seconds
+[2022-11-14 18:16:34,819] {processor.py:163} INFO - Started process (PID=4093) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:34,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:16:34,823] {logging_mixin.py:109} INFO - [2022-11-14 18:16:34,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:36,067] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:16:36,084] {logging_mixin.py:109} INFO - [2022-11-14 18:16:36,083] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:16:36,109] {logging_mixin.py:109} INFO - [2022-11-14 18:16:36,109] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:16:36,132] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.320 seconds
+[2022-11-14 18:17:06,241] {processor.py:163} INFO - Started process (PID=4124) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:06,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:17:06,248] {logging_mixin.py:109} INFO - [2022-11-14 18:17:06,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:07,425] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:07,437] {logging_mixin.py:109} INFO - [2022-11-14 18:17:07,436] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:17:07,457] {logging_mixin.py:109} INFO - [2022-11-14 18:17:07,457] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:17:07,467] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.234 seconds
+[2022-11-14 18:17:37,576] {processor.py:163} INFO - Started process (PID=4154) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:37,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:17:37,586] {logging_mixin.py:109} INFO - [2022-11-14 18:17:37,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:38,854] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:17:38,866] {logging_mixin.py:109} INFO - [2022-11-14 18:17:38,866] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:17:38,888] {logging_mixin.py:109} INFO - [2022-11-14 18:17:38,888] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:17:38,903] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.345 seconds
+[2022-11-14 18:18:09,087] {processor.py:163} INFO - Started process (PID=4189) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:09,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:18:09,115] {logging_mixin.py:109} INFO - [2022-11-14 18:18:09,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:12,095] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:12,110] {logging_mixin.py:109} INFO - [2022-11-14 18:18:12,110] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:18:12,143] {logging_mixin.py:109} INFO - [2022-11-14 18:18:12,143] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:18:12,154] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 3.095 seconds
+[2022-11-14 18:18:42,294] {processor.py:163} INFO - Started process (PID=4218) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:42,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:18:42,301] {logging_mixin.py:109} INFO - [2022-11-14 18:18:42,300] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:43,410] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:18:43,425] {logging_mixin.py:109} INFO - [2022-11-14 18:18:43,424] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:18:43,450] {logging_mixin.py:109} INFO - [2022-11-14 18:18:43,450] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:18:43,464] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.178 seconds
+[2022-11-14 18:19:13,615] {processor.py:163} INFO - Started process (PID=4253) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:13,617] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:19:13,619] {logging_mixin.py:109} INFO - [2022-11-14 18:19:13,618] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:15,149] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:15,166] {logging_mixin.py:109} INFO - [2022-11-14 18:19:15,165] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:19:15,194] {logging_mixin.py:109} INFO - [2022-11-14 18:19:15,194] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:19:15,209] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.600 seconds
+[2022-11-14 18:19:45,373] {processor.py:163} INFO - Started process (PID=4284) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:45,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:19:45,377] {logging_mixin.py:109} INFO - [2022-11-14 18:19:45,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:46,404] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:19:46,419] {logging_mixin.py:109} INFO - [2022-11-14 18:19:46,418] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:19:46,439] {logging_mixin.py:109} INFO - [2022-11-14 18:19:46,439] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:19:46,450] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.083 seconds
+[2022-11-14 18:20:16,613] {processor.py:163} INFO - Started process (PID=4312) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:16,618] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:20:16,619] {logging_mixin.py:109} INFO - [2022-11-14 18:20:16,619] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:17,905] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:17,922] {logging_mixin.py:109} INFO - [2022-11-14 18:20:17,921] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:20:17,949] {logging_mixin.py:109} INFO - [2022-11-14 18:20:17,949] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:20:17,968] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.362 seconds
+[2022-11-14 18:20:48,026] {processor.py:163} INFO - Started process (PID=4349) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:48,028] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:20:48,029] {logging_mixin.py:109} INFO - [2022-11-14 18:20:48,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:49,005] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:20:49,016] {logging_mixin.py:109} INFO - [2022-11-14 18:20:49,016] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:20:49,035] {logging_mixin.py:109} INFO - [2022-11-14 18:20:49,035] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:20:49,048] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.027 seconds
+[2022-11-14 18:21:19,200] {processor.py:163} INFO - Started process (PID=4376) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:19,201] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:21:19,202] {logging_mixin.py:109} INFO - [2022-11-14 18:21:19,202] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:20,105] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:20,120] {logging_mixin.py:109} INFO - [2022-11-14 18:21:20,120] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:21:20,137] {logging_mixin.py:109} INFO - [2022-11-14 18:21:20,137] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:21:20,148] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.954 seconds
+[2022-11-14 18:21:50,334] {processor.py:163} INFO - Started process (PID=4404) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:50,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:21:50,341] {logging_mixin.py:109} INFO - [2022-11-14 18:21:50,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:51,303] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:21:51,314] {logging_mixin.py:109} INFO - [2022-11-14 18:21:51,314] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:21:51,331] {logging_mixin.py:109} INFO - [2022-11-14 18:21:51,331] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:21:51,343] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.015 seconds
+[2022-11-14 18:22:21,486] {processor.py:163} INFO - Started process (PID=4441) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:21,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:22:21,503] {logging_mixin.py:109} INFO - [2022-11-14 18:22:21,503] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:22,692] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:22,703] {logging_mixin.py:109} INFO - [2022-11-14 18:22:22,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:22:22,721] {logging_mixin.py:109} INFO - [2022-11-14 18:22:22,721] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:22:22,732] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.260 seconds
+[2022-11-14 18:22:52,901] {processor.py:163} INFO - Started process (PID=4468) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:52,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:22:52,905] {logging_mixin.py:109} INFO - [2022-11-14 18:22:52,905] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:53,971] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:22:53,986] {logging_mixin.py:109} INFO - [2022-11-14 18:22:53,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:22:54,011] {logging_mixin.py:109} INFO - [2022-11-14 18:22:54,011] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:22:54,025] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.131 seconds
+[2022-11-14 18:23:24,169] {processor.py:163} INFO - Started process (PID=4506) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:24,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:23:24,173] {logging_mixin.py:109} INFO - [2022-11-14 18:23:24,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:25,535] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:25,573] {logging_mixin.py:109} INFO - [2022-11-14 18:23:25,573] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:23:25,612] {logging_mixin.py:109} INFO - [2022-11-14 18:23:25,612] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:23:25,665] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.502 seconds
+[2022-11-14 18:23:55,822] {processor.py:163} INFO - Started process (PID=4535) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:55,824] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:23:55,825] {logging_mixin.py:109} INFO - [2022-11-14 18:23:55,825] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:57,071] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:23:57,082] {logging_mixin.py:109} INFO - [2022-11-14 18:23:57,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:23:57,101] {logging_mixin.py:109} INFO - [2022-11-14 18:23:57,101] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:23:57,112] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.298 seconds
+[2022-11-14 18:24:27,202] {processor.py:163} INFO - Started process (PID=4563) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:27,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:24:27,206] {logging_mixin.py:109} INFO - [2022-11-14 18:24:27,206] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:28,256] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:28,268] {logging_mixin.py:109} INFO - [2022-11-14 18:24:28,267] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:24:28,286] {logging_mixin.py:109} INFO - [2022-11-14 18:24:28,286] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:24:28,298] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.101 seconds
+[2022-11-14 18:24:58,452] {processor.py:163} INFO - Started process (PID=4600) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:58,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:24:58,455] {logging_mixin.py:109} INFO - [2022-11-14 18:24:58,454] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:59,398] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:24:59,413] {logging_mixin.py:109} INFO - [2022-11-14 18:24:59,413] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:24:59,438] {logging_mixin.py:109} INFO - [2022-11-14 18:24:59,438] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:24:59,451] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.004 seconds
+[2022-11-14 18:25:29,600] {processor.py:163} INFO - Started process (PID=4628) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:25:29,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:25:29,604] {logging_mixin.py:109} INFO - [2022-11-14 18:25:29,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:25:30,617] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:25:30,632] {logging_mixin.py:109} INFO - [2022-11-14 18:25:30,631] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:25:30,652] {logging_mixin.py:109} INFO - [2022-11-14 18:25:30,652] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:25:30,662] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.069 seconds
+[2022-11-14 18:26:00,808] {processor.py:163} INFO - Started process (PID=4664) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:00,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:26:00,812] {logging_mixin.py:109} INFO - [2022-11-14 18:26:00,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:02,009] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:02,022] {logging_mixin.py:109} INFO - [2022-11-14 18:26:02,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:26:02,048] {logging_mixin.py:109} INFO - [2022-11-14 18:26:02,047] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:26:02,062] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.260 seconds
+[2022-11-14 18:26:32,212] {processor.py:163} INFO - Started process (PID=4692) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:32,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:26:32,216] {logging_mixin.py:109} INFO - [2022-11-14 18:26:32,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:33,254] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:26:33,265] {logging_mixin.py:109} INFO - [2022-11-14 18:26:33,265] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:26:33,285] {logging_mixin.py:109} INFO - [2022-11-14 18:26:33,285] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:26:33,297] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.091 seconds
+[2022-11-14 18:27:03,447] {processor.py:163} INFO - Started process (PID=4719) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:03,450] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:27:03,451] {logging_mixin.py:109} INFO - [2022-11-14 18:27:03,451] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:04,624] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:04,635] {logging_mixin.py:109} INFO - [2022-11-14 18:27:04,634] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:27:04,670] {logging_mixin.py:109} INFO - [2022-11-14 18:27:04,669] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:27:04,684] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.243 seconds
+[2022-11-14 18:27:34,855] {processor.py:163} INFO - Started process (PID=4758) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:34,857] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:27:34,858] {logging_mixin.py:109} INFO - [2022-11-14 18:27:34,858] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:36,022] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:27:36,042] {logging_mixin.py:109} INFO - [2022-11-14 18:27:36,042] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:27:36,060] {logging_mixin.py:109} INFO - [2022-11-14 18:27:36,060] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:27:36,071] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.223 seconds
+[2022-11-14 18:28:06,214] {processor.py:163} INFO - Started process (PID=4787) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:06,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:28:06,218] {logging_mixin.py:109} INFO - [2022-11-14 18:28:06,217] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:07,195] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:07,206] {logging_mixin.py:109} INFO - [2022-11-14 18:28:07,205] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:28:07,232] {logging_mixin.py:109} INFO - [2022-11-14 18:28:07,232] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:28:07,245] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.036 seconds
+[2022-11-14 18:28:37,417] {processor.py:163} INFO - Started process (PID=4824) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:37,423] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:28:37,424] {logging_mixin.py:109} INFO - [2022-11-14 18:28:37,424] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:38,807] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:28:38,821] {logging_mixin.py:109} INFO - [2022-11-14 18:28:38,820] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:28:38,848] {logging_mixin.py:109} INFO - [2022-11-14 18:28:38,847] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:28:38,861] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.451 seconds
+[2022-11-14 18:29:09,024] {processor.py:163} INFO - Started process (PID=4852) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:09,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:29:09,029] {logging_mixin.py:109} INFO - [2022-11-14 18:29:09,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:10,200] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:10,210] {logging_mixin.py:109} INFO - [2022-11-14 18:29:10,209] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:29:10,230] {logging_mixin.py:109} INFO - [2022-11-14 18:29:10,230] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:29:10,241] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.223 seconds
+[2022-11-14 18:29:40,311] {processor.py:163} INFO - Started process (PID=4880) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:40,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:29:40,319] {logging_mixin.py:109} INFO - [2022-11-14 18:29:40,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:41,590] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:29:41,605] {logging_mixin.py:109} INFO - [2022-11-14 18:29:41,604] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:29:41,633] {logging_mixin.py:109} INFO - [2022-11-14 18:29:41,633] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:29:41,649] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.345 seconds
+[2022-11-14 18:30:11,815] {processor.py:163} INFO - Started process (PID=4917) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:11,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:30:11,818] {logging_mixin.py:109} INFO - [2022-11-14 18:30:11,818] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:12,839] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:12,850] {logging_mixin.py:109} INFO - [2022-11-14 18:30:12,849] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:30:12,871] {logging_mixin.py:109} INFO - [2022-11-14 18:30:12,871] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:30:12,884] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.075 seconds
+[2022-11-14 18:30:43,056] {processor.py:163} INFO - Started process (PID=4946) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:43,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:30:43,060] {logging_mixin.py:109} INFO - [2022-11-14 18:30:43,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:44,278] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:30:44,290] {logging_mixin.py:109} INFO - [2022-11-14 18:30:44,290] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:30:44,308] {logging_mixin.py:109} INFO - [2022-11-14 18:30:44,308] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:30:44,319] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.269 seconds
+[2022-11-14 18:31:14,402] {processor.py:163} INFO - Started process (PID=4983) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:14,404] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:31:14,405] {logging_mixin.py:109} INFO - [2022-11-14 18:31:14,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:15,446] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:15,459] {logging_mixin.py:109} INFO - [2022-11-14 18:31:15,458] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:31:15,476] {logging_mixin.py:109} INFO - [2022-11-14 18:31:15,476] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:31:15,488] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.091 seconds
+[2022-11-14 18:31:45,642] {processor.py:163} INFO - Started process (PID=5011) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:45,643] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:31:45,644] {logging_mixin.py:109} INFO - [2022-11-14 18:31:45,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:46,564] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:31:46,579] {logging_mixin.py:109} INFO - [2022-11-14 18:31:46,579] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:31:46,596] {logging_mixin.py:109} INFO - [2022-11-14 18:31:46,596] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:31:46,606] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.969 seconds
+[2022-11-14 18:32:16,800] {processor.py:163} INFO - Started process (PID=5038) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:16,803] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:32:16,804] {logging_mixin.py:109} INFO - [2022-11-14 18:32:16,804] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:18,841] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:18,857] {logging_mixin.py:109} INFO - [2022-11-14 18:32:18,856] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:32:18,882] {logging_mixin.py:109} INFO - [2022-11-14 18:32:18,882] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:32:18,896] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 2.103 seconds
+[2022-11-14 18:32:48,992] {processor.py:163} INFO - Started process (PID=5074) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:48,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:32:48,998] {logging_mixin.py:109} INFO - [2022-11-14 18:32:48,998] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:50,007] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:32:50,019] {logging_mixin.py:109} INFO - [2022-11-14 18:32:50,018] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:32:50,036] {logging_mixin.py:109} INFO - [2022-11-14 18:32:50,036] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:32:50,047] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.060 seconds
+[2022-11-14 18:33:20,162] {processor.py:163} INFO - Started process (PID=5102) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:20,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:33:20,167] {logging_mixin.py:109} INFO - [2022-11-14 18:33:20,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:21,105] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:21,116] {logging_mixin.py:109} INFO - [2022-11-14 18:33:21,115] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:33:21,132] {logging_mixin.py:109} INFO - [2022-11-14 18:33:21,132] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:33:21,142] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.985 seconds
+[2022-11-14 18:33:51,310] {processor.py:163} INFO - Started process (PID=5141) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:51,313] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:33:51,314] {logging_mixin.py:109} INFO - [2022-11-14 18:33:51,314] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:52,495] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:33:52,511] {logging_mixin.py:109} INFO - [2022-11-14 18:33:52,511] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:33:52,536] {logging_mixin.py:109} INFO - [2022-11-14 18:33:52,536] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:33:52,550] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.245 seconds
+[2022-11-14 18:34:22,665] {processor.py:163} INFO - Started process (PID=5169) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:22,666] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:34:22,667] {logging_mixin.py:109} INFO - [2022-11-14 18:34:22,667] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:23,601] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:23,614] {logging_mixin.py:109} INFO - [2022-11-14 18:34:23,614] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:34:23,631] {logging_mixin.py:109} INFO - [2022-11-14 18:34:23,631] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:34:23,644] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.984 seconds
+[2022-11-14 18:34:53,799] {processor.py:163} INFO - Started process (PID=5198) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:53,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:34:53,803] {logging_mixin.py:109} INFO - [2022-11-14 18:34:53,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:55,029] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:34:55,045] {logging_mixin.py:109} INFO - [2022-11-14 18:34:55,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:34:55,069] {logging_mixin.py:109} INFO - [2022-11-14 18:34:55,069] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:34:55,082] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.290 seconds
+[2022-11-14 18:35:25,248] {processor.py:163} INFO - Started process (PID=5236) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:25,252] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:35:25,254] {logging_mixin.py:109} INFO - [2022-11-14 18:35:25,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:26,520] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:26,531] {logging_mixin.py:109} INFO - [2022-11-14 18:35:26,530] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:35:26,550] {logging_mixin.py:109} INFO - [2022-11-14 18:35:26,550] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:35:26,562] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.322 seconds
+[2022-11-14 18:35:56,649] {processor.py:163} INFO - Started process (PID=5265) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:56,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:35:56,653] {logging_mixin.py:109} INFO - [2022-11-14 18:35:56,653] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:57,877] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:35:57,895] {logging_mixin.py:109} INFO - [2022-11-14 18:35:57,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:35:57,917] {logging_mixin.py:109} INFO - [2022-11-14 18:35:57,917] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:35:57,927] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.284 seconds
+[2022-11-14 18:36:28,049] {processor.py:163} INFO - Started process (PID=5302) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:36:28,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:36:28,053] {logging_mixin.py:109} INFO - [2022-11-14 18:36:28,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:36:29,099] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:36:29,114] {logging_mixin.py:109} INFO - [2022-11-14 18:36:29,113] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:36:29,136] {logging_mixin.py:109} INFO - [2022-11-14 18:36:29,136] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:36:29,148] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.106 seconds
+[2022-11-14 18:36:59,278] {processor.py:163} INFO - Started process (PID=5330) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:36:59,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:36:59,281] {logging_mixin.py:109} INFO - [2022-11-14 18:36:59,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:37:00,281] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:37:00,296] {logging_mixin.py:109} INFO - [2022-11-14 18:37:00,295] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:37:00,320] {logging_mixin.py:109} INFO - [2022-11-14 18:37:00,320] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:37:00,331] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.058 seconds
+[2022-11-14 18:37:30,483] {processor.py:163} INFO - Started process (PID=5366) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:37:30,486] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:37:30,487] {logging_mixin.py:109} INFO - [2022-11-14 18:37:30,487] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:37:31,896] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:37:31,913] {logging_mixin.py:109} INFO - [2022-11-14 18:37:31,912] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:37:31,939] {logging_mixin.py:109} INFO - [2022-11-14 18:37:31,938] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:37:31,953] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.477 seconds
+[2022-11-14 18:38:02,149] {processor.py:163} INFO - Started process (PID=5393) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:02,152] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:38:02,154] {logging_mixin.py:109} INFO - [2022-11-14 18:38:02,153] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:03,189] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:03,204] {logging_mixin.py:109} INFO - [2022-11-14 18:38:03,204] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:38:03,230] {logging_mixin.py:109} INFO - [2022-11-14 18:38:03,230] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:38:03,243] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.100 seconds
+[2022-11-14 18:38:33,393] {processor.py:163} INFO - Started process (PID=5421) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:33,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:38:33,397] {logging_mixin.py:109} INFO - [2022-11-14 18:38:33,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:34,363] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:38:34,379] {logging_mixin.py:109} INFO - [2022-11-14 18:38:34,379] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:38:34,405] {logging_mixin.py:109} INFO - [2022-11-14 18:38:34,405] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:38:34,417] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.030 seconds
+[2022-11-14 18:39:04,566] {processor.py:163} INFO - Started process (PID=5459) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:04,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:39:04,570] {logging_mixin.py:109} INFO - [2022-11-14 18:39:04,570] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:05,818] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:05,833] {logging_mixin.py:109} INFO - [2022-11-14 18:39:05,832] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:39:05,868] {logging_mixin.py:109} INFO - [2022-11-14 18:39:05,868] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:39:05,895] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.335 seconds
+[2022-11-14 18:39:36,043] {processor.py:163} INFO - Started process (PID=5489) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:36,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:39:36,045] {logging_mixin.py:109} INFO - [2022-11-14 18:39:36,045] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:37,000] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:39:37,011] {logging_mixin.py:109} INFO - [2022-11-14 18:39:37,011] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:39:37,029] {logging_mixin.py:109} INFO - [2022-11-14 18:39:37,029] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:39:37,041] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.003 seconds
+[2022-11-14 18:40:07,183] {processor.py:163} INFO - Started process (PID=5517) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:07,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:40:07,187] {logging_mixin.py:109} INFO - [2022-11-14 18:40:07,187] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:08,495] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:08,510] {logging_mixin.py:109} INFO - [2022-11-14 18:40:08,510] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:40:08,537] {logging_mixin.py:109} INFO - [2022-11-14 18:40:08,537] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:40:08,551] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.374 seconds
+[2022-11-14 18:40:38,686] {processor.py:163} INFO - Started process (PID=5555) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:38,687] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:40:38,688] {logging_mixin.py:109} INFO - [2022-11-14 18:40:38,688] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:39,739] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:40:39,749] {logging_mixin.py:109} INFO - [2022-11-14 18:40:39,749] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:40:39,770] {logging_mixin.py:109} INFO - [2022-11-14 18:40:39,770] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:40:39,782] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.101 seconds
+[2022-11-14 18:41:09,927] {processor.py:163} INFO - Started process (PID=5583) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:09,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:41:09,931] {logging_mixin.py:109} INFO - [2022-11-14 18:41:09,931] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:11,125] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:11,140] {logging_mixin.py:109} INFO - [2022-11-14 18:41:11,140] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:41:11,168] {logging_mixin.py:109} INFO - [2022-11-14 18:41:11,168] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:41:11,185] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.264 seconds
+[2022-11-14 18:41:41,324] {processor.py:163} INFO - Started process (PID=5620) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:41,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:41:41,328] {logging_mixin.py:109} INFO - [2022-11-14 18:41:41,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:42,451] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:41:42,467] {logging_mixin.py:109} INFO - [2022-11-14 18:41:42,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:41:42,494] {logging_mixin.py:109} INFO - [2022-11-14 18:41:42,494] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:41:42,510] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.192 seconds
+[2022-11-14 18:42:12,679] {processor.py:163} INFO - Started process (PID=5649) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:12,682] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:42:12,684] {logging_mixin.py:109} INFO - [2022-11-14 18:42:12,683] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:13,943] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:13,954] {logging_mixin.py:109} INFO - [2022-11-14 18:42:13,954] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:42:13,976] {logging_mixin.py:109} INFO - [2022-11-14 18:42:13,976] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:42:13,987] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.315 seconds
+[2022-11-14 18:42:44,084] {processor.py:163} INFO - Started process (PID=5688) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:44,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:42:44,088] {logging_mixin.py:109} INFO - [2022-11-14 18:42:44,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:45,374] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:42:45,390] {logging_mixin.py:109} INFO - [2022-11-14 18:42:45,389] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:42:45,408] {logging_mixin.py:109} INFO - [2022-11-14 18:42:45,408] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:42:45,420] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.343 seconds
+[2022-11-14 18:43:15,468] {processor.py:163} INFO - Started process (PID=5717) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:15,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:43:15,471] {logging_mixin.py:109} INFO - [2022-11-14 18:43:15,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:16,408] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:16,423] {logging_mixin.py:109} INFO - [2022-11-14 18:43:16,422] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:43:16,448] {logging_mixin.py:109} INFO - [2022-11-14 18:43:16,448] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:43:16,462] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.000 seconds
+[2022-11-14 18:43:46,633] {processor.py:163} INFO - Started process (PID=5746) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:46,635] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:43:46,637] {logging_mixin.py:109} INFO - [2022-11-14 18:43:46,637] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:47,902] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:43:47,917] {logging_mixin.py:109} INFO - [2022-11-14 18:43:47,916] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:43:47,942] {logging_mixin.py:109} INFO - [2022-11-14 18:43:47,942] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:43:47,956] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.331 seconds
+[2022-11-14 18:44:18,025] {processor.py:163} INFO - Started process (PID=5782) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:18,028] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:44:18,029] {logging_mixin.py:109} INFO - [2022-11-14 18:44:18,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:18,963] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:18,974] {logging_mixin.py:109} INFO - [2022-11-14 18:44:18,973] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:44:18,992] {logging_mixin.py:109} INFO - [2022-11-14 18:44:18,992] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:44:19,002] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 0.982 seconds
+[2022-11-14 18:44:49,146] {processor.py:163} INFO - Started process (PID=5809) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:49,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:44:49,149] {logging_mixin.py:109} INFO - [2022-11-14 18:44:49,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:50,198] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:44:50,209] {logging_mixin.py:109} INFO - [2022-11-14 18:44:50,208] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:44:50,228] {logging_mixin.py:109} INFO - [2022-11-14 18:44:50,228] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:44:50,238] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.099 seconds
+[2022-11-14 18:45:20,380] {processor.py:163} INFO - Started process (PID=5847) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:20,383] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:45:20,384] {logging_mixin.py:109} INFO - [2022-11-14 18:45:20,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:21,393] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:21,408] {logging_mixin.py:109} INFO - [2022-11-14 18:45:21,407] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:45:21,430] {logging_mixin.py:109} INFO - [2022-11-14 18:45:21,430] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:45:21,441] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.069 seconds
+[2022-11-14 18:45:51,596] {processor.py:163} INFO - Started process (PID=5875) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:51,598] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:45:51,599] {logging_mixin.py:109} INFO - [2022-11-14 18:45:51,599] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:52,634] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:45:52,644] {logging_mixin.py:109} INFO - [2022-11-14 18:45:52,644] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:45:52,665] {logging_mixin.py:109} INFO - [2022-11-14 18:45:52,665] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:45:52,679] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.088 seconds
+[2022-11-14 18:46:22,814] {processor.py:163} INFO - Started process (PID=5912) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:22,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:46:22,818] {logging_mixin.py:109} INFO - [2022-11-14 18:46:22,818] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:23,878] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:23,890] {logging_mixin.py:109} INFO - [2022-11-14 18:46:23,889] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:46:23,911] {logging_mixin.py:109} INFO - [2022-11-14 18:46:23,911] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:46:23,922] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.114 seconds
+[2022-11-14 18:46:54,078] {processor.py:163} INFO - Started process (PID=5940) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:54,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:46:54,081] {logging_mixin.py:109} INFO - [2022-11-14 18:46:54,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:55,083] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:46:55,096] {logging_mixin.py:109} INFO - [2022-11-14 18:46:55,095] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:46:55,112] {logging_mixin.py:109} INFO - [2022-11-14 18:46:55,112] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:46:55,122] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 1.050 seconds
+[2022-11-14 18:47:25,269] {processor.py:163} INFO - Started process (PID=5968) to work on /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:47:25,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/zones_data_ingestion.py for tasks to queue
+[2022-11-14 18:47:25,274] {logging_mixin.py:109} INFO - [2022-11-14 18:47:25,274] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:47:27,436] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v1']) retrieved from /opt/airflow/dags/zones_data_ingestion.py
+[2022-11-14 18:47:27,456] {logging_mixin.py:109} INFO - [2022-11-14 18:47:27,455] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-14 18:47:27,483] {logging_mixin.py:109} INFO - [2022-11-14 18:47:27,483] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v1 to None
+[2022-11-14 18:47:27,510] {processor.py:171} INFO - Processing /opt/airflow/dags/zones_data_ingestion.py took 2.249 seconds
